@@ -1,0 +1,8 @@
+Options All -Indexes
+
+RewriteEngine on 
+
+RewriteBase /mvc_pdo/
+
+
+RewriteRule ^([-a-zA-Z0-9]+)$ /mvc_pdo/index.php?sk=$1
